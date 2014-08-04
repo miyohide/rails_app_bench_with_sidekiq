@@ -1,6 +1,6 @@
-class CreateDetails < ActiveRecord::Migration
+class CreateDealings < ActiveRecord::Migration
   def change
-    create_table :details do |t|
+    create_table :dealings do |t|
       t.references :customer, index: true
 
       t.timestamps
